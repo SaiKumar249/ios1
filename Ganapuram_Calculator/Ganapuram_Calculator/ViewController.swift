@@ -36,7 +36,7 @@ class ViewController: UIViewController {
                         opChanged = false
                         operation = ""
                         currentNumber2 = ""
-                        Display.text = "0"
+                        Display.text = ""
                         Display.textColor = .red
                         inChainmode=false
                     }
