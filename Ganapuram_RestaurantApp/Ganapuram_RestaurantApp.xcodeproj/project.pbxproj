@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59AFCE0E2818505800F3322C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE0D2818505800F3322C /* AppDelegate.swift */; };
+		59AFCE102818505800F3322C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE0F2818505800F3322C /* SceneDelegate.swift */; };
+		59AFCE122818505800F3322C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE112818505800F3322C /* ViewController.swift */; };
+		59AFCE152818505800F3322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AFCE132818505800F3322C /* Main.storyboard */; };
+		59AFCE172818505C00F3322C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AFCE162818505C00F3322C /* Assets.xcassets */; };
+		59AFCE1A2818505C00F3322C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AFCE182818505C00F3322C /* LaunchScreen.storyboard */; };
+		59AFCE252818505D00F3322C /* Ganapuram_RestaurantAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE242818505D00F3322C /* Ganapuram_RestaurantAppTests.swift */; };
+		59AFCE2F2818505D00F3322C /* Ganapuram_RestaurantAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE2E2818505D00F3322C /* Ganapuram_RestaurantAppUITests.swift */; };
+		59AFCE312818505D00F3322C /* Ganapuram_RestaurantAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE302818505D00F3322C /* Ganapuram_RestaurantAppUITestsLaunchTests.swift */; };
+		59AFCE3E2818526B00F3322C /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE3D2818526B00F3322C /* Restaurant.swift */; };
+		59AFCE402818550600F3322C /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AFCE3F2818550600F3322C /* RestaurantDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59AFCE212818505D00F3322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59AFCE022818505800F3322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59AFCE092818505800F3322C;
+			remoteInfo = Ganapuram_RestaurantApp;
+		};
+		59AFCE2B2818505D00F3322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59AFCE022818505800F3322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59AFCE092818505800F3322C;
+			remoteInfo = Ganapuram_RestaurantApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59AFCE0A2818505800F3322C /* Ganapuram_RestaurantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ganapuram_RestaurantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AFCE0D2818505800F3322C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59AFCE0F2818505800F3322C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59AFCE112818505800F3322C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59AFCE142818505800F3322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59AFCE162818505C00F3322C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59AFCE192818505C00F3322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59AFCE1B2818505C00F3322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59AFCE202818505C00F3322C /* Ganapuram_RestaurantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ganapuram_RestaurantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AFCE242818505D00F3322C /* Ganapuram_RestaurantAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ganapuram_RestaurantAppTests.swift; sourceTree = "<group>"; };
+		59AFCE2A2818505D00F3322C /* Ganapuram_RestaurantAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ganapuram_RestaurantAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AFCE2E2818505D00F3322C /* Ganapuram_RestaurantAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ganapuram_RestaurantAppUITests.swift; sourceTree = "<group>"; };
+		59AFCE302818505D00F3322C /* Ganapuram_RestaurantAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ganapuram_RestaurantAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59AFCE3D2818526B00F3322C /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		59AFCE3F2818550600F3322C /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59AFCE072818505800F3322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AFCE1D2818505C00F3322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AFCE272818505D00F3322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59AFCE012818505800F3322C = {
+			isa = PBXGroup;
+			children = (
+				59AFCE0C2818505800F3322C /* Ganapuram_RestaurantApp */,
+				59AFCE232818505D00F3322C /* Ganapuram_RestaurantAppTests */,
+				59AFCE2D2818505D00F3322C /* Ganapuram_RestaurantAppUITests */,
+				59AFCE0B2818505800F3322C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59AFCE0B2818505800F3322C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59AFCE0A2818505800F3322C /* Ganapuram_RestaurantApp.app */,
+				59AFCE202818505C00F3322C /* Ganapuram_RestaurantAppTests.xctest */,
+				59AFCE2A2818505D00F3322C /* Ganapuram_RestaurantAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59AFCE0C2818505800F3322C /* Ganapuram_RestaurantApp */ = {
+			isa = PBXGroup;
+			children = (
+				59AFCE0D2818505800F3322C /* AppDelegate.swift */,
+				59AFCE0F2818505800F3322C /* SceneDelegate.swift */,
+				59AFCE112818505800F3322C /* ViewController.swift */,
+				59AFCE132818505800F3322C /* Main.storyboard */,
+				59AFCE162818505C00F3322C /* Assets.xcassets */,
+				59AFCE182818505C00F3322C /* LaunchScreen.storyboard */,
+				59AFCE1B2818505C00F3322C /* Info.plist */,
+				59AFCE3D2818526B00F3322C /* Restaurant.swift */,
+				59AFCE3F2818550600F3322C /* RestaurantDetailsViewController.swift */,
+			);
+			path = Ganapuram_RestaurantApp;
+			sourceTree = "<group>";
+		};
+		59AFCE232818505D00F3322C /* Ganapuram_RestaurantAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				59AFCE242818505D00F3322C /* Ganapuram_RestaurantAppTests.swift */,
+			);
+			path = Ganapuram_RestaurantAppTests;
+			sourceTree = "<group>";
+		};
+		59AFCE2D2818505D00F3322C /* Ganapuram_RestaurantAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59AFCE2E2818505D00F3322C /* Ganapuram_RestaurantAppUITests.swift */,
+				59AFCE302818505D00F3322C /* Ganapuram_RestaurantAppUITestsLaunchTests.swift */,
+			);
+			path = Ganapuram_RestaurantAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59AFCE092818505800F3322C /* Ganapuram_RestaurantApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AFCE342818505D00F3322C /* Build configuration list for PBXNativeTarget "Ganapuram_RestaurantApp" */;
+			buildPhases = (
+				59AFCE062818505800F3322C /* Sources */,
+				59AFCE072818505800F3322C /* Frameworks */,
+				59AFCE082818505800F3322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ganapuram_RestaurantApp;
+			productName = Ganapuram_RestaurantApp;
+			productReference = 59AFCE0A2818505800F3322C /* Ganapuram_RestaurantApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59AFCE1F2818505C00F3322C /* Ganapuram_RestaurantAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AFCE372818505D00F3322C /* Build configuration list for PBXNativeTarget "Ganapuram_RestaurantAppTests" */;
+			buildPhases = (
+				59AFCE1C2818505C00F3322C /* Sources */,
+				59AFCE1D2818505C00F3322C /* Frameworks */,
+				59AFCE1E2818505C00F3322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59AFCE222818505D00F3322C /* PBXTargetDependency */,
+			);
+			name = Ganapuram_RestaurantAppTests;
+			productName = Ganapuram_RestaurantAppTests;
+			productReference = 59AFCE202818505C00F3322C /* Ganapuram_RestaurantAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59AFCE292818505D00F3322C /* Ganapuram_RestaurantAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AFCE3A2818505D00F3322C /* Build configuration list for PBXNativeTarget "Ganapuram_RestaurantAppUITests" */;
+			buildPhases = (
+				59AFCE262818505D00F3322C /* Sources */,
+				59AFCE272818505D00F3322C /* Frameworks */,
+				59AFCE282818505D00F3322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59AFCE2C2818505D00F3322C /* PBXTargetDependency */,
+			);
+			name = Ganapuram_RestaurantAppUITests;
+			productName = Ganapuram_RestaurantAppUITests;
+			productReference = 59AFCE2A2818505D00F3322C /* Ganapuram_RestaurantAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59AFCE022818505800F3322C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					59AFCE092818505800F3322C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					59AFCE1F2818505C00F3322C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 59AFCE092818505800F3322C;
+					};
+					59AFCE292818505D00F3322C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 59AFCE092818505800F3322C;
+					};
+				};
+			};
+			buildConfigurationList = 59AFCE052818505800F3322C /* Build configuration list for PBXProject "Ganapuram_RestaurantApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59AFCE012818505800F3322C;
+			productRefGroup = 59AFCE0B2818505800F3322C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59AFCE092818505800F3322C /* Ganapuram_RestaurantApp */,
+				59AFCE1F2818505C00F3322C /* Ganapuram_RestaurantAppTests */,
+				59AFCE292818505D00F3322C /* Ganapuram_RestaurantAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59AFCE082818505800F3322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AFCE1A2818505C00F3322C /* LaunchScreen.storyboard in Resources */,
+				59AFCE172818505C00F3322C /* Assets.xcassets in Resources */,
+				59AFCE152818505800F3322C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AFCE1E2818505C00F3322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AFCE282818505D00F3322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59AFCE062818505800F3322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AFCE3E2818526B00F3322C /* Restaurant.swift in Sources */,
+				59AFCE402818550600F3322C /* RestaurantDetailsViewController.swift in Sources */,
+				59AFCE122818505800F3322C /* ViewController.swift in Sources */,
+				59AFCE0E2818505800F3322C /* AppDelegate.swift in Sources */,
+				59AFCE102818505800F3322C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AFCE1C2818505C00F3322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AFCE252818505D00F3322C /* Ganapuram_RestaurantAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AFCE262818505D00F3322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AFCE312818505D00F3322C /* Ganapuram_RestaurantAppUITestsLaunchTests.swift in Sources */,
+				59AFCE2F2818505D00F3322C /* Ganapuram_RestaurantAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59AFCE222818505D00F3322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59AFCE092818505800F3322C /* Ganapuram_RestaurantApp */;
+			targetProxy = 59AFCE212818505D00F3322C /* PBXContainerItemProxy */;
+		};
+		59AFCE2C2818505D00F3322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59AFCE092818505800F3322C /* Ganapuram_RestaurantApp */;
+			targetProxy = 59AFCE2B2818505D00F3322C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59AFCE132818505800F3322C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59AFCE142818505800F3322C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59AFCE182818505C00F3322C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59AFCE192818505C00F3322C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59AFCE322818505D00F3322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59AFCE332818505D00F3322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59AFCE352818505D00F3322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ganapuram_RestaurantApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ganapuram_RestaurantApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ganapuram-RestaurantApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59AFCE362818505D00F3322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ganapuram_RestaurantApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ganapuram_RestaurantApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ganapuram-RestaurantApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59AFCE382818505D00F3322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ganapuram-RestaurantAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ganapuram_RestaurantApp.app/Ganapuram_RestaurantApp";
+			};
+			name = Debug;
+		};
+		59AFCE392818505D00F3322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ganapuram-RestaurantAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ganapuram_RestaurantApp.app/Ganapuram_RestaurantApp";
+			};
+			name = Release;
+		};
+		59AFCE3B2818505D00F3322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ganapuram-RestaurantAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ganapuram_RestaurantApp;
+			};
+			name = Debug;
+		};
+		59AFCE3C2818505D00F3322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ganapuram-RestaurantAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ganapuram_RestaurantApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59AFCE052818505800F3322C /* Build configuration list for PBXProject "Ganapuram_RestaurantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AFCE322818505D00F3322C /* Debug */,
+				59AFCE332818505D00F3322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AFCE342818505D00F3322C /* Build configuration list for PBXNativeTarget "Ganapuram_RestaurantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AFCE352818505D00F3322C /* Debug */,
+				59AFCE362818505D00F3322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AFCE372818505D00F3322C /* Build configuration list for PBXNativeTarget "Ganapuram_RestaurantAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AFCE382818505D00F3322C /* Debug */,
+				59AFCE392818505D00F3322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AFCE3A2818505D00F3322C /* Build configuration list for PBXNativeTarget "Ganapuram_RestaurantAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AFCE3B2818505D00F3322C /* Debug */,
+				59AFCE3C2818505D00F3322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59AFCE022818505800F3322C /* Project object */;
+}
